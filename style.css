@@ -1,0 +1,572 @@
+  #heading {
+      margin-top: -10px;
+      height: 170px;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    padding-left: 30px;
+    margin-right: 30px;
+  }
+  
+
+  img {
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      float: right;
+      padding-bottom: 32px ;
+  }
+
+  #naming {
+      text-align: center;
+      background-color: rgb(187, 17, 105);
+      font-weight: 400;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 53px;
+      color: rgb(247, 247, 247);
+      font-style: italic;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      height: 88px ;
+      
+      
+  }
+  
+  #a1 {
+      font-size: medium;
+      margin-left: 15px;
+      padding: 20px;
+      height: 10px;
+  }
+  
+  #a2 {
+      font-size: medium;
+      padding: 20px;
+      height: 10px;
+  }
+  
+  #a3 {
+      font-size: medium;
+      padding: 20px;
+      height: 10px;
+  }
+  
+  #a4 {
+      margin-left: 20px;
+      margin-right: 40px;
+  }
+  
+  #a5 {
+      font-size: medium;
+      padding: 20px;
+      height: 10px;
+  }
+  /* #a6 {
+      font-size: medium;
+      padding: 20px;
+      height: 10px;
+  }
+   */
+  
+  #searchbox {
+      color: black;
+  }
+  
+  #a6 {
+      margin-left: 20px;
+      ;
+  }
+  
+  #content {
+      width: 100%;
+      height: 50px;
+      margin-top: 2px;
+      padding-top: 4px ;
+      text-align: left;
+      background-color: #013a63;
+      z-index: index -1;
+      color: antiquewhite;
+  }
+  
+  .social:hover {
+      color: #f1f1f1;
+  }
+  #a1:hover {
+      background-color: rgb(255, 255, 255);
+      color: black;
+      height: 2px;
+  }
+  
+  #a2:hover {
+      background-color: rgb(255, 255, 255);
+      color: black;
+  }
+  
+  #a3:hover {
+      background-color: rgb(255, 255, 255);
+      color: black;
+  }
+  
+  #a4:hover {
+      background-color: pink;
+  }
+  
+  #a5:hover {
+      background-color: rgb(255, 255, 255);
+      color: black;
+  }
+  
+  #a6:hover {
+      background-color: pink;
+  }
+  
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgb(245, 240, 240);
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+      padding: 12px 16px;
+      z-index: 1;
+      color: aliceblue;
+      font-style: oblique;
+      font-weight: 300;
+  }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  #voicebutton {
+      width: 20px;
+      height: 20px;
+  }
+  
+  .sources {
+      font-size: larger;
+      text-align: center;
+      color: darkorange;
+      height: 50px;
+      margin-top: 60px;
+      width: 100%;
+      background-color: aliceblue;
+  }
+  
+  .resources {
+      height: 300px;
+      margin-top: 70px;
+      width: auto;
+      font-weight: 500;
+      font-size: 20px;
+      font-style: inherit;
+  }
+  
+  #item {
+      padding: 50px;
+  }
+  
+  #1 {
+      float: right;
+  }
+  
+  #search {
+      color: black;
+      font-weight: 200;
+  }
+  
+  #mycarouse1 {
+      margin-top: 20px;
+  }
+  
+  .head {
+      height: 50px;
+      width: auto;
+      background: rgb(2, 2, 95);
+  }
+  
+  .cont {
+      width: fit-content;
+      color: azure;
+  }
+  
+  .btn {
+      float: right;
+      padding: 10px;
+      border: black;
+      background-color: greenyellow
+  }
+  
+  body {
+      background-color: rgb(249, 227, 230);
+  }
+  /* #left {
+      height: fit-content;
+      width: 500px;
+      background-color: rgb(217, 216, 213);
+  }
+   */
+  
+  #college {
+      width: 150px;
+      height: 150px;
+      border-radius: 50px;
+      border: 2px;
+      border-style: groove;
+      border-color: blanchedalmond;
+      margin-right: 120px;
+      text-align: center;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+  
+  input[type=text],
+  select,
+  textarea {
+      width: 100%;
+      /* Full width */
+      padding: 12px;
+      /* Some padding */
+      border: 1px solid #ccc;
+      /* Gray border */
+      border-radius: 4px;
+      /* Rounded borders */
+      box-sizing: border-box;
+      /* Make sure that padding and width stays in place */
+      margin-top: 6px;
+      /* Add a top margin */
+      margin-bottom: 16px;
+      /* Bottom margin */
+      resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  /* Style the submit button with a specific background color etc */
+  
+  input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  /* When moving the mouse over the submit button, add a darker green color */
+  
+  input[type=submit]:hover {
+      background-color: #45a049;
+  }
+  /* Add a background color and some padding around the form */
+  
+  .container {
+      border-radius: 8px;
+      background-color: #f2f2f2;
+      color: white;
+      padding: 20px;
+  }
+  
+  #captchaBackground {
+      height: 220px;
+      width: 250px;
+      background-color: #2d3748;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  
+  #captchaHeading {
+      color: white;
+  }
+  
+  #captcha {
+      height: 80%;
+      width: 80%;
+      font-size: 30px;
+      letter-spacing: 3px;
+      margin: auto;
+      display: block;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+  
+  .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  #submitButton {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      background-color: #08e5ff;
+      border: 0px;
+      font-weight: bold;
+  }
+  
+  #refreshButton {
+      background-color: #08e5ff;
+      border: 0px;
+      font-weight: bold;
+  }
+  
+  #textBox {
+      height: 25px;
+  }
+  
+  .incorrectCaptcha {
+      color: #FF0000;
+  }
+  
+  .correctCaptcha {
+      color: #7FFF00;
+  }
+  
+  .name {
+      width: 1140px;
+      height: 300px;
+      background-color: antiquewhite;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5 px;
+      text-align: center;
+      padding-bottom: 25px;
+  }
+  /* footer
+   */
+  
+  .col-xs-6 col-sm-2 {
+      list-style-type: none;
+      margin-left: 1vw;
+  }
+  
+  .col-xs-6 col-sm-2:first-child {
+      margin: 0;
+  }
+  
+  footer {
+      padding-top: 15px;
+      padding-bottom: 2px;
+      font-size: 17px;
+  }
+  
+  .container {
+      background-color: rgb(2, 2, 95);
+      width: 100%;
+  }
+  
+  .copyright,
+  .impressum {
+      text-align: center;
+      color: white;
+  }
+  
+  .logo {
+      height: 8vh;
+  }
+  
+  li {
+      margin-left: 0;
+      margin-bottom: 1vh;
+  }
+  
+  .sozial {
+      margin-bottom: 1vh;
+  }
+  /* The Modal (background) */
+  
+  .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4);
+      /* Black w/ opacity */
+      padding-top: 60px;
+  }
+  /* Modal Content/Box */
+  
+  .modal-content {
+      background-color: #fefefe;
+      margin: 5px auto;
+      /* 15% from the top and centered */
+      border: 1px solid #888;
+      width: 80%;
+      /* Could be more or less, depending on screen size */
+  }
+  /* The Close Button */
+  
+  .close {
+      /* Position it in the top right corner outside of the modal */
+      position: absolute;
+      right: 25px;
+      top: 0;
+      color: #000;
+      font-size: 35px;
+      font-weight: bold;
+  }
+  /* Close button on hover */
+  
+  .close:hover,
+  .close:focus {
+      color: red;
+      cursor: pointer;
+  }
+  /* Add Zoom Animation */
+  
+  .animate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+      from {
+          -webkit-transform: scale(0)
+      }
+      to {
+          -webkit-transform: scale(1)
+      }
+  }
+  
+  @keyframes animatezoom {
+      from {
+          transform: scale(0)
+      }
+      to {
+          transform: scale(1)
+      }
+  }
+  /* drop down  */
+  
+  *,
+  *::before,
+  *::after {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+  }
+  /* body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 10px;
+  }
+   */
+  
+  .dropdown {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 100px;
+      z-index: 1;
+  }
+  
+  .dropdown li {
+      position: relative;
+  }
+  
+  .dropdown li a {
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+  }
+  
+  .dropdown li ul {
+      position: absolute;
+      top: 100%;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: none;
+      line-height: normal;
+      background-color: #333;
+  }
+  
+  .dropdown li ul li a {
+      text-align: left;
+      color: #cccccc;
+      font-size: 14px;
+      padding: 10px;
+      display: block;
+      white-space: nowrap;
+  }
+  
+  .dropdown li ul li a:hover {
+      background-color: rgb(104, 3, 3);
+      color: #ffffff;
+  }
+  
+  .dropdown li ul li ul {
+      left: 100%;
+      top: 0;
+  }
+  
+  ul li:hover>a {
+      background-color: rgb(104, 3, 3);
+      color: #ffffff !important;
+  }
+  
+  ul li:hover>ul {
+      display: block;
+  }
+  /* cards alignment */
+  
+  .column {
+     
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+      padding-left: 7%;
+      
+  }
+  /* Remove extra left and right margins, due to padding in columns */
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+  }
+  /* Clear floats after the columns */
+  
+  .row:after {
+      content: "";
+      clear: both;
+  }
+  /* Style the counter cards */
+  
+  .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      /* this adds the "card" effect */
+      padding: 16px;
+      text-align: center;
+      background-color: #f1f1f1;
+  }
+  /* Responsive columns - one column layout (vertical) on small screens */
+  
+  @media screen and (max-width: 600px) {
+      .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+      }
+  }
